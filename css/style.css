@@ -1,0 +1,51 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: hsla(240, 94%, 50%, 0.986);
+}
+
+h2 {
+  color: hsla(4, 96%, 50%, 0.986);
+}
+
+/* para agregarlo a todos los encabezados has esto */
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(227, 2%, 12%);
+}

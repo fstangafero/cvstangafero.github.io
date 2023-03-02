@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Mi Currículum Vitae - Contacto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="antecedentes.html">Antecedentes</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="formulario">
+      <h1>Contacto</h1>
+      <form action="#" method="POST" id="form-contacto">
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="campo">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="campo">
+          <label for="email">Dirección de e-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo">
+          <label for="motivo">Motivo del contacto:</label>
+          <textarea id="motivo" name="motivo" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <script src="js/validar.js"></script>
+</main>
+</body>
+
+</html>
